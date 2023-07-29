@@ -1,1 +1,225 @@
-<p>SCREW LTD. (coming soon)</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOONTYR</title>
+  <!-- Add Font Awesome CDN link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="icon" href="https://screwltd.com/favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #36393f;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2f3136;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+    }
+
+    footer {
+      background-color: #2f3136;
+      text-align: center;
+      padding: 28px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      color: #72767d;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      padding: 20px;
+    }
+
+    .project-card {
+      background-color: #2c2f33;
+      color: #ffffff;
+      width: 300px;
+      margin: 20px;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .project-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .project-description {
+      font-size: 16px;
+    }
+
+    .about-me {
+      flex-basis: 70%;
+      margin-right: 20px;
+      position: relative;
+    }
+
+    .about-me h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .about-me p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    /* Socials at the very bottom for 16:9 aspect ratio */
+    @media (aspect-ratio: 16/9) {
+      .socials {
+        /* Styles for the socials container at the bottom */
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        background-color: #2c2f33;
+        padding: 10px 20px;
+        border-radius: 8px;
+      }
+
+      .socials a {
+        /* Styles for the social icons */
+        margin: 0 20px 0 0; /* Increased margin for better separation */
+        color: #ffffff;
+        font-size: 32px; /* Larger icon size */
+        text-decoration: none;
+        transition: all 0.3s ease;
+      }
+
+      .socials a:hover {
+        transform: translateY(-3px);
+      }
+    }
+
+    /* Socials on top of the text for 9:16 aspect ratio */
+    @media (aspect-ratio: 9/16) {
+      .socials {
+        /* Styles for the socials container on top of the text */
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+
+      .socials a {
+        /* Styles for the social icons */
+        margin: 0 20px 0 0; /* Increased margin for better separation */
+        color: #ffffff;
+        font-size: 24px; /* Smaller icon size */
+        text-decoration: none;
+        transition: all 0.3s ease;
+      }
+
+      .socials a:hover {
+        transform: translateY(-3px);
+      }
+    }
+
+    .github {
+      color: white;
+    }
+
+    .telegram {
+      color: white;
+    }
+
+    .email {
+      color: white;
+    }
+
+    .project-image {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    .additional-project-card {
+      background-color: #2c2f33;
+      color: #ffffff;
+      width: 300px;
+      margin: 20px;
+      border-radius: 8px;
+      padding: 20px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+    }
+
+    .additional-project-card:hover {
+      transform: translateY(-4px);
+      cursor: pointer;
+    }
+
+    .additional-project-card h2 {
+      font-size: 20px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .additional-project-card p {
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    MOONTYR
+  </header>
+
+  <div class="container">
+    <div class="about-me">
+      <h2>About Me</h2>
+      <p>
+        I am a young novice programmer working in SCREW LTD., a dynamic and innovative company that specializes in game development. As part of the development team, my main focus is creating captivating and immersive games using Unity and the C# programming language.
+        <br>
+        Every day at SCREW LTD. is an exciting learning experience. I have the opportunity to work alongside seasoned developers who generously share their knowledge and expertise. This supportive environment allows me to continuously grow my skills and push the boundaries of my creativity.
+        <br>
+        In my role, I am involved in various stages of game development, from conceptualization and design to implementation and testing. Collaborating with artists, designers, and other programmers, we bring our ideas to life, striving to deliver top-notch gaming experiences that will delight players worldwide.
+        <br>
+        While I face challenges on this journey, I embrace them as opportunities to learn and improve. SCREW LTD. fosters a culture of innovation, encouraging us to think outside the box and explore cutting-edge technologies to enhance our games further.
+        <br>
+        As a Unity and C# enthusiast, I find immense joy in seeing my code come to life and witnessing players immerse themselves in the worlds we create. The satisfaction of knowing that my work brings joy and entertainment to others motivates me to keep pushing my boundaries and reaching new heights in game development.
+        <br>
+        I am eager to continue my growth as a programmer and contribute my skills to the success of SCREW LTD.'s projects. With the support of my colleagues and the company's commitment to excellence, I am confident that my journey in game development will be both rewarding and fulfilling.
+      <!-- Social icons -->
+      <div class="socials">
+        <!-- Font Awesome icons for social links -->
+        <a class="github" href="https://github.com/moontyr" target="_blank" rel="noopener noreferrer"><i class="fab fa-github fa-lg"></i></a>&nbsp;
+        <a class="telegram" href="https://t.me/moontyr69" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram fa-lg"></i></a>&nbsp;
+        <a class="email" href="mailto:moontyr@screwltd.com"><i class="far fa-envelope fa-lg"></i></a>
+      </div>
+    </div>
+
+    <div class="project-card" onclick="window.location.href='https://remnant.screwltd.com/'">
+      <img class="project-image" src="https://remnant.screwltd.com/img/REMNANT_LOGO_full.png" alt="Project Image">
+      <h2 class="project-title">REMNANT</h2>
+      <p class="project-description">REMNANT is an immersive FPS game designed for PC. Step into a thrilling world where chaos reigns and survival is the ultimate goal.</p>
+    </div>
+  </div>
+
+  <footer>
+    SCREW LTD. &copy; 2023
+  </footer>
+</body>
+</html>
